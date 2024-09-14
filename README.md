@@ -4,9 +4,10 @@
 
 $ python hhbook_east.py start_date site
 
-*where:
-start_date = checkin date (must be sunday) in YYYY-MM-DD format
-site = Number site ID*
+*where:*
+
+- *start_date = checkin date (must be sunday) in YYYY-MM-DD format*
+- *site = Number site ID*
 
 ## Notes
 
@@ -24,14 +25,14 @@ site = Number site ID*
 
 ### Site IDs - East Area
 
-G007 = 249565
-G008 = 249566
-G009 = 249568
-G0013 = 249571
+- G007 = 249565
+- G008 = 249566
+- G009 = 249568
+- G0013 = 249571
 
-G0017 = 249575
-G0018 = 249576
-G0019 = 249471
+- G0017 = 249575
+- G0018 = 249576
+- G0019 = 249471
 
 ### Testing
 
@@ -54,4 +55,3 @@ start_date = 2025-04-27,
     page.get_by_role("button", name="Continue to Cart").click()
     page.get_by_role("button", name="Abandon Cart").click()
     page.get_by_role("button", name="Yes").click()
-    
