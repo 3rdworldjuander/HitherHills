@@ -37,34 +37,34 @@ async def login_process(page, page_url):
     await page.get_by_placeholder("Password").fill(password)
     await page.get_by_placeholder("Password").press("Enter")
 
-def get_closest_sunday(date_str):
-    # Convert the input string to a datetime object
-    date = datetime.strptime(date_str, "%Y-%m-%d")
+# def get_closest_sunday(date_str):
+#     # Convert the input string to a datetime object
+#     date = datetime.strptime(date_str, "%Y-%m-%d")
     
-    # Get the day of the week (0 = Monday, 6 = Sunday)
-    day_of_week = date.weekday()
+#     # Get the day of the week (0 = Monday, 6 = Sunday)
+#     day_of_week = date.weekday()
     
-    if day_of_week == 6:
-        # If it's already Sunday, return the input date
-        return date_str
-    else:
-        # Calculate days until the next Sunday
-        days_until_sunday = 6 - day_of_week
+#     if day_of_week == 6:
+#         # If it's already Sunday, return the input date
+#         return date_str
+#     else:
+#         # Calculate days until the next Sunday
+#         days_until_sunday = 6 - day_of_week
         
-        # Get the next Sunday
-        next_sunday = date + timedelta(days=days_until_sunday)
+#         # Get the next Sunday
+#         next_sunday = date + timedelta(days=days_until_sunday)
         
-        # Get the previous Sunday
-        prev_sunday = date - timedelta(days=day_of_week + 1)
+#         # Get the previous Sunday
+#         prev_sunday = date - timedelta(days=day_of_week + 1)
         
-        # Determine which Sunday is closer
-        if (date - prev_sunday) < (next_sunday - date):
-            closest_sunday = prev_sunday
-        else:
-            closest_sunday = next_sunday
+#         # Determine which Sunday is closer
+#         if (date - prev_sunday) < (next_sunday - date):
+#             closest_sunday = prev_sunday
+#         else:
+#             closest_sunday = next_sunday
         
-        # Return the closest Sunday in YYYY-MM-DD format
-        return closest_sunday.strftime("%Y-%m-%d")
+#         # Return the closest Sunday in YYYY-MM-DD format
+#         return closest_sunday.strftime("%Y-%m-%d")
 
 async def check_availability(page):
     # Locator for the cell
