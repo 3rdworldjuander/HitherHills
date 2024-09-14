@@ -2,13 +2,24 @@
 
 ## USAGE
 
-$ python hhbook_east.py start_date site
+$ *python hhbook_east.py __start_date__ __site__*
 
 *where:*
 
-- *start_date = checkin date (must be sunday) in YYYY-MM-DD format*
-- *site = Number site ID*
+- *__start_date__ = checkin date (must be sunday) in YYYY-MM-DD format*
+- *__site__ = Number site ID*
 
+### Site IDs - East Area
+
+- G007 = 249565
+- G008 = 249566
+- G009 = 249568
+- G0013 = 249571
+
+- G0017 = 249575
+- G0018 = 249576
+- G0019 = 249471
+  
 ## Notes
 
 ### Sample URL
@@ -22,17 +33,6 @@ $ python hhbook_east.py start_date site
 ### URL with automatic select of 7 days
 
 <https://www.reserveamerica.com/explore/hither-hills-state-park/NY/297/{site}/campsite-booking?availStartDate={start_date}&nextAvailableDate=false&arrivalDate={start_date}&lengthOfStay=7>
-
-### Site IDs - East Area
-
-- G007 = 249565
-- G008 = 249566
-- G009 = 249568
-- G0013 = 249571
-
-- G0017 = 249575
-- G0018 = 249576
-- G0019 = 249471
 
 ### Testing
 
