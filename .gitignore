@@ -1,0 +1,5 @@
+.env
+sms*.py
+*.pyc
+
+.venv
