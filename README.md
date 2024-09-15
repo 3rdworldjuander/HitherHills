@@ -70,16 +70,16 @@ start_date = 2025-04-27,
 ## Heckscher State Park, NY
 
 Cot1__4 = 278470
-Cot2__6 = 278518
+Cot2__6_stairs = 278518
 Cot3__4 = 278517
 Cot4__4 = 278469
-Cot5__6 = 278516
+Cot5__6_stairs = 278516
 Cot6__4 = 278468
 Cot7__4 = 278467
-Cot8__6 = 278471
+Cot8__6_stairs = 278471
 Cot9__4 = 278466
 Cot10__4 = 278166
-Cot11__6 = 277766
+Cot11__6_spiral = 277766
 Cot12__2 = 277816
 Cot13__2 = 277817
 Cot14__2 = 277818
