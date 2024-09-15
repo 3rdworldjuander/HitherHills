@@ -112,3 +112,36 @@ CORE (7-night minimum stay, Friday to Friday): Friday, June 21, 2024 – Thursda
 Non-Peak (3-night minimum stay): Friday, August 30, 2024 - Monday, October 14, 2024
 Peak pricing applies to Columbus Day Weekend: Friday, October 11, 2024 - Monday, October 14, 2024
 Non-Peak (2-night minimum stay): Tuesday, October 15, 2024 - Saturday, October 19, 2024
+
+1 Bedroom Cottages
+12, 13, 14, 15
+Max Occupancy 4
+1 Queen bed
+Pull-out sofa
+
+2 Bedroom Cottages
+1, 3, 4, 6, 7, 9, 10
+Max Occupancy 6
+1 Queen bed
+2 Twin beds
+Pull-out sofa
+
+2 Bedroom Cottages with Loft
+2, 5, 8, 11
+Max Occupancy 8
+1 Queen bed
+4 Twin beds
+Pull-out sofa
+
+Each Cottage is equipped with a refrigerator/freezer and ice cube trays, stovetop, oven, microwave, toaster, coffee maker, dish rack, cutting board, broom, dustpan, mop, paper towel holder, toilet paper and garbage bags.
+Cottages have propane heat, wi-fi and air-conditioning.
+Patio table with seating to match capacity, 2 Adirondack chairs, 2 longue chairs, small side table and metal firepit with grill.
+
+Guests are encouraged to bring:
+• bedding, pillows, and linens
+• kitchen and bath towels
+• toiletries and cleaning supplies
+• cookware, utensils, and oven mitts
+• plates, bowls, cups, flatware, and cutlery
+• can and bottle openers
+• firewood (purchase or source locally)
