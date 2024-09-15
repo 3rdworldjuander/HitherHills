@@ -113,7 +113,11 @@ async def main():
     await asyncio.sleep(10)
     await is_it_in_cart(page)
 
-    input('Press enter to continue...')
+    print("Browser window is now open. The script will keep running until manually stopped.")
+    
+    # This will keep the script running indefinitely
+    while True:
+        await asyncio.sleep(60)  # Sleep for 60 seconds before checking again
 
     await browser.close()
 

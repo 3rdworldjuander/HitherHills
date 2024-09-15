@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.og.hh_book_east</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/oamar/Documents/GitHub/HitherHills/.venv/bin/python</string>
+        <string>/Users/oamar/Documents/GitHub/HitherHills/hh_book_east.py</string>
+        <string>2025-04-18</string>
+        <string>249565</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Month</key>
+        <integer>9</integer>
+        <key>Day</key>
+        <integer>14</integer>
+        <key>Hour</key>
+        <integer>21</integer>
+        <key>Minute</key>
+        <integer>00</integer>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/tmp/hh_book_east.out</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/hh_book_east.err</string>
+</dict>
+</plist>

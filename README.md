@@ -40,6 +40,10 @@ Try with
 G008 = 249566
 start_date = 2025-04-27,
 
+https://www.reserveamerica.com/explore/hither-hills-state-park/NY/297/249566/campsite-booking?availStartDate=2025-04-18&nextAvailableDate=false&arrivalDate=2025-04-18&lengthOfStay=2
+
+https://www.reserveamerica.com/explore/hither-hills-state-park/NY/297/249565/campsite-booking?availStartDate=2025-04-18&nextAvailableDate=false&arrivalDate=2025-04-18&lengthOfStay=2
+
 ## Roadmap
 
 ### Auto-fill shopping cart
