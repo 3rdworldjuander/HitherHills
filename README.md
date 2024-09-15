@@ -20,17 +20,24 @@ $ *python hhbook_east.py __start_date__ __site__*
 - G0018 = 249576
 - G0019 = 249471
   
+## Schedule run in MacOS using launchd
+
+- copy plist file to ~/Library/LaunchAgents/
+- chmod 644 ~/Library/LaunchAgents/com.hitherhills
+- launchctl load ~/Library/LaunchAgents/com.hitherhills
+
+When done booking
+
+- kill pid of running script
+- unload using launchctl unload ~/Library/LaunchAgents/com.hitherhills
+
 ## Notes
 
 ### Sample URL
 
 <https://www.reserveamerica.com/explore/hither-hills-state-park/NY/297/249565/campsite-booking?availStartDate=2025-04-20&arrivalDate=2025-05-03&lengthOfStay=7>
 
-### URL
-
-<https://www.reserveamerica.com/explore/hither-hills-state-park/NY/297/{site}/campsite-booking?availStartDate={start_date}&arrivalDate={end_date}&lengthOfStay=7>
-
-### URL with automatic select of 7 days
+### URL with automatic select of 7 days (change 7 for number of days selected)
 
 <https://www.reserveamerica.com/explore/hither-hills-state-park/NY/297/{site}/campsite-booking?availStartDate={start_date}&nextAvailableDate=false&arrivalDate={start_date}&lengthOfStay=7>
 
@@ -40,9 +47,9 @@ Try with
 G008 = 249566
 start_date = 2025-04-27,
 
-https://www.reserveamerica.com/explore/hither-hills-state-park/NY/297/249566/campsite-booking?availStartDate=2025-04-18&nextAvailableDate=false&arrivalDate=2025-04-18&lengthOfStay=2
+<https://www.reserveamerica.com/explore/hither-hills-state-park/NY/297/249566/campsite-booking?availStartDate=2025-04-18&nextAvailableDate=false&arrivalDate=2025-04-18&lengthOfStay=2>
 
-https://www.reserveamerica.com/explore/hither-hills-state-park/NY/297/249565/campsite-booking?availStartDate=2025-04-18&nextAvailableDate=false&arrivalDate=2025-04-18&lengthOfStay=2
+<https://www.reserveamerica.com/explore/hither-hills-state-park/NY/297/249565/campsite-booking?availStartDate=2025-04-18&nextAvailableDate=false&arrivalDate=2025-04-18&lengthOfStay=2>
 
 ## Roadmap
 
