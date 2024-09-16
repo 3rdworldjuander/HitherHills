@@ -35,7 +35,7 @@ When done booking
 
 ### Sample URL
 
-<https://www.reserveamerica.com/explore/hither-hills-state-park/NY/297/249565/campsite-booking?availStartDate=2025-04-20&arrivalDate=2025-05-03&lengthOfStay=7>
+<https://www.reserveamerica.com/explore/hither-hills-state-park/NY/297/249568/campsite-booking?availStartDate=2025-06-15&arrivalDate=2025-06-15&lengthOfStay=7>
 
 ### URL with automatic select of 7 days (change 7 for number of days selected)
 
