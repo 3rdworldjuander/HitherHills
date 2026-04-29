@@ -85,7 +85,8 @@ Cot13__2 = 277817
 Cot14__2 = 277818
 Cot15__2 = 277819
 
-<https://www.reserveamerica.com/explore/heckscher-state-park/NY/277/277817/campsite-booking?availStartDate=2025-06-13&nextAvailableDate=false&arrivalDate=2025-07-11&lengthOfStay=2>
+
+https://www.reserveamerica.com/explore/heckscher-state-park/NY/277/277817/campsite-booking?availStartDate=2026-06-17&arrivalDate=2026-06-17&lengthOfStay=2&productVehicleOccupantQuantity=0&nextAvailableDate=false
 
 2024 Cottage Season Schedule
 
